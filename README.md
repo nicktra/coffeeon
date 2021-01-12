@@ -12,7 +12,7 @@
   </p>
 </p>
 
-# FootballX
+# CoffeeON
 
 CoffeeON is An App for Discover Ice Coffee Shop Chains in near you.
 
