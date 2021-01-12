@@ -24,9 +24,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 Things you need to install the software and how to install them
 
-```
-npm install npm@latest -g
-```
+* Flutter SDK
+* IDE (Android Studio/ VS Code/ Intellij IDEA)
 
 ### Installing
 
@@ -34,11 +33,7 @@ npm install npm@latest -g
 ```sh
 git clone https://github.com/nicktra/coffeeon.git
 ```
-2. Install NPM packages
-```sh
-npm install
-```
-3. Run with your local live server
+2. Open with your IDE
 
 ## Deployment
 
@@ -46,7 +41,8 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Flutter](https://flutter.dev/) -  The Multiplaftorm build tools.
+* [Dart](https://dart.dev/) - The Programming Language
+* [Flutter](https://flutter.dev/) -  Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
 
 ## Contributing
 
