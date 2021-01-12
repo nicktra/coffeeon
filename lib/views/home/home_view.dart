@@ -53,11 +53,11 @@ class _HomeViewState extends State<HomeView> {
                 ),
               ),
               Container(
-                height: 450,
+                height: MediaQuery.of(context).size.height * 0.6,
                 padding: const EdgeInsets.only(left: 32),
                 child: Swiper(
                   itemCount: coffeeBrandList.length,
-                  itemWidth: MediaQuery.of(context).size.width - 2 * 64,
+                  itemWidth: MediaQuery.of(context).size.width * 0.7,
                   layout: SwiperLayout.STACK,
                   pagination: SwiperPagination(
                     builder:
@@ -71,7 +71,6 @@ class _HomeViewState extends State<HomeView> {
                           PageRouteBuilder(
                             pageBuilder: (context, a, b) => DetailView(
                               brand: coffeeBrandList[index],
-                              /* coffeeBrand: coffeeBrandList[index], */
                             ),
                           ),
                         );
